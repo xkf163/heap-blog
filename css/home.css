@@ -96,7 +96,16 @@ button
     background: #1d96b3;
 }
 
-.green-section .green-wrapper
+.pruple-section
+{
+    background: purple;
+
+}
+
+
+
+.green-section .green-wrapper,
+.pruple-section .pruple-wrapper
 {
     max-width: 1080px;
     text-align: center;
@@ -216,4 +225,119 @@ p{
 .main-wrapper
 {
     overflow: hidden;
+}
+
+.clearfix:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.pruple-wrapper
+{
+    width: 60%;
+}
+
+.pruple-wrapper .cards-group .card
+{
+    width: 50%;
+    float: left;
+    min-height: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /*border: 1px solid white;*/
+}
+
+.card p
+{
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 20px;
+    text-align: left;
+}
+.card h3
+{
+    text-align: left;
+    margin-left: 30px;
+    color: white;
+}
+
+.card:first-child
+{
+    background: rgba(0,0,0,0.04);
+}
+
+.card:nth-child(2)
+ {
+     background: rgba(0,0,0,0.08);
+ }
+
+.card:nth-child(3)
+{
+    background: rgba(0,0,0,0.12);
+}
+
+.card:nth-child(4)
+{
+    background: rgba(0,0,0,0.16);
+}
+
+
+.card:nth-child(5)
+{
+    background: rgba(0,0,0,0.2);
+}
+
+.card:nth-child(6)
+{
+    background: rgba(0,0,0,0.24);
+}
+
+.card:nth-child(7)
+{
+    background: rgba(0,0,0,0.28);
+}
+.card:nth-child(8)
+{
+    background: rgba(0,0,0,0.32);
+}
+
+footer
+{
+    background: #333;
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+
+}
+
+footer ul
+{
+    margin: 0;
+    padding: 40px;
+}
+
+ul .share-group
+{
+    display: block;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.share-group li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.copyright
+{
+    padding-bottom: 20px;
 }
